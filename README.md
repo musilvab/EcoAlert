@@ -1,6 +1,6 @@
 # 🌱 EcoAlert
 
-**EcoAlert** é uma plataforma web desenvolvida como parte do Desafio Profissional do curso de Engenharia de Software da UniCesumar. O objetivo é facilitar o registro e a gestão de ocorrências ambientais por parte de cidadãos e órgãos públicos.
+**EcoAlert** é uma plataforma web desenvolvida como parte de uma atividade do curso de Engenharia de Software da UniCesumar. O objetivo é facilitar o registro e a gestão de ocorrências ambientais por parte de cidadãos e órgãos públicos.
 
 ---
 
