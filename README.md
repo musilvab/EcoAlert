@@ -32,5 +32,5 @@ Permitir que cidadãos possam registrar incidentes ambientais (como alagamentos,
 
 ## 📁 Desenvolvido por
 - Luiz Gustavo Rodrigues Cardoso Da Silveira
-- Murilo Silva Barbosa
-
+- Murilo Silva Barbosa (RA: 23272159-2)
+- Turma: ESOFT-B 5° Semestre
