@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 public class Ocorrencia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     private String descricao;
     private String local;
@@ -17,7 +17,7 @@ public class Ocorrencia {
     
     public Ocorrencia(){}
 
-    public int getId(){
+    public Long getId(){
         return id;
     }
 

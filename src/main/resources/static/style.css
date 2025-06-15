@@ -1,0 +1,207 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d0f0c0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #006400, #228B22);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header .eco {
+  color: #90EE90;
+}
+
+header .alert {
+  color: #FF6347;
+}
+
+header h2 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+.categoria {
+  padding: 2rem;
+}
+
+.categoria h3 {
+  margin-bottom: 1rem;
+  color: #006400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.carrossel {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.card button {
+  margin: 0 1rem 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #228B22;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.card button:hover {
+  background-color: #1e7b1e;
+}
+
+.botoes {
+  text-align: center;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.botoes button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+  width: 220px;
+}
+
+.botoes button:hover {
+  background-color: #004d00;
+}
+
+.botoes .sair {
+  background-color: #b22222;
+}
+
+.botoes .sair:hover {
+  background-color: #8b1a1a;
+}
+
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+footer .eco {
+  color: #90EE90;
+}
+
+footer .alert {
+  color: #FF6347;
+}
+
+.formulario {
+  max-width: 500px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formulario label {
+  font-weight: bold;
+  color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="date"],
+.formulario input[type="file"] {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.formulario button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #228B22;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #1e7b1e;
+}
+.home-button-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+}
+.home-button {
+  background-color: #3cb371;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #2e8b57;
+}

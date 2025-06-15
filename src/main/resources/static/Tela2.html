@@ -1,0 +1,56 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar Ocorrência - EcoAlert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    
+    <div class="home-button-container">
+  <button class="home-button" onclick="location.href='Tela1.html'">🏠 Home</button>
+</div>
+
+    <h1><span class="eco">Eco</span><span class="alert">Alert</span></h1>
+    <h2>Registrar Nova Ocorrência</h2>
+  </header>
+
+  <section class="formulario">
+    <form onsubmit="return registrarOcorrencia(event)">
+      <label for="tipo">Tipo de Ocorrência:</label>
+      <input type="text" id="tipo" name="tipo" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+
+      <label for="data">Data da Ocorrência:</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="autor">Seu nome (opcional):</label>
+      <input type="text" id="autor" name="autor">
+
+      <label for="imagem">Foto da Ocorrência:</label>
+      <input type="file" id="imagem" name="imagem" accept="image/*">
+
+      <button type="submit">Registrar</button>
+    </form>
+    <div id="mensagem-sucesso" style="display:none; color: green; font-weight: bold; text-align: center; margin-top: 1rem;">
+  Ocorrência registrada com sucesso!
+</div>
+  </section>
+  <footer>
+  <p><strong><span class="eco">Eco</span><span class="alert">Alert</span></strong></p>
+</footer>
+<script>
+  function registrarOcorrencia(event) {
+    event.preventDefault();
+    const msg = document.getElementById("mensagem-sucesso");
+    msg.style.display = "block";
+    setTimeout(() => {
+      window.location.href = "Tela1.html";
+    }, 2000);
+  }
+</script>
+</body>
+</html>
